@@ -1,0 +1,7 @@
+LÝ THUYẾT LESSION 2
+1. Giải thích các câu lệnh Git:
+
+- Git init: Khởi tạo repo local, thư mục hiện tại sẽ được quản lý bởi git. Files trong thư mục này sẽ được đưa vào vùng Working Directory.
+- Git add <file name> : đưa một file cụ thể từ Working Directory vào Staging Area.
+- Git add . : đưa toàn bộ các files đang tồn tại trong Working Directory vào Staging Area.
+- Git commit -m "message" : Đưa tất cả các files đang trong vùng Staging Area vào Repository kèm theo một message giải thích cho phiên bản vừa submit (commit) lên.

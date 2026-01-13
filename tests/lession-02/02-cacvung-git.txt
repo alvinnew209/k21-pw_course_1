@@ -1,0 +1,13 @@
+Giải thích các vùng theo thứ tự từng câu lệnh:
+a. Tạo 3 files: file1, file2, file3
+    Đây là vùng local (quy ước chỉ trong phạm vi lớp học): vùng này chỉ nằm trên bộ nhớ máy tính cá nhân, chưa ai biết và cũng chưa được quản lý bởi Git.
+b. Chạy lệnh: git init.
+    Khởi tạo git repo cho thư mục chứa 3 files. Thư mục này bây giờ sẽ là vùng Working Directory.
+c. Chạy lệnh: git commit -m"init project"
+    Lỗi: "nothing to commit", vì không có files nào được đưa vào Staging Area để commit lên Repository Area
+d. Chạy lệnh: git add file1
+    Add file1 vào Staging Area.
+e. Chạy lệnh: git commit -m”add file1”
+    Commit file1 vào Repository area với message là "add file1"
+f. Chạy lệnh: git commit -m”add file”
+    Lỗi: "nothing to commit", vì không có files nào được đưa vào Staging Area để commit lên Repository Area
