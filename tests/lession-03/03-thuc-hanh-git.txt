@@ -1,0 +1,29 @@
+a. Chạy lệnh git init: khởi tạo folder tên demo được quản lý bởi git
+- Local:
+- Working Directory: 
+- Staging:
+- Repository:
+
+b. Tạo file file1.txt, file2.txt, oops/file3.txt.
+- Local:
+- Working Directory: file1.txt, file2.txt, oops/file3.txt
+- Staging:
+- Repository: 
+
+c. Thêm file .gitignore, thêm vào 2 dòng: file1.txt, oops/file3.txt
+- Local:
+- Working Directory: file2.txt, .gitignore
+- Staging:
+- Repository: 
+
+d. Chạy lệnh: git add .
+- Local:
+- Working Directory:
+- Staging: file2.txt, .gitignore
+- Repository: 
+
+e. Chạy lệnh: git commit -m"init project"
+- Local:
+- Working Directory:
+- Staging: 
+- Repository: file2.txt, .gitignore

@@ -1,0 +1,5 @@
+Giải thích các câu lệnh:
+git commit --amend: cú pháp ghì đè lên commit cuối cùng (không tạo ra commit mới), thêm bớt file đã commit trước đó,...tóm lại là gộp những thay đổi vào commit trước đó
+git commit --amend -m"<message>": mục đich dùng để sửa nội dung message ở commit cuối cùng.
+git restore --stage <file>: đưa file được chỉ định đang ở vùng Staging về lại vùng Working Directory.
+git reset HEAD~1: hoàn tác lại 1 commit gần nhất, đưa các file trong commit gần nhất và các file đang ở vùng Staging (chưa commit) về Working Directory.
